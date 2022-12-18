@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #000202 0%, #323233 100%);
+}
+
+p {
+    color: whitesmoke;
+
+}
+
+.carousel-inner>p {
+    font-size: 2em;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-link a :hover {
+    color: rgb(38, 223, 57);
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+a {
+    color: rgb(172, 10, 10);
+}
+
+a:hover {
+    color: rgb(22, 172, 189);
+}
+
+.collapse navbar-collapse {
+    text-size-adjust: 25px;
+}
+
+.navbar-toggler-icon {
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    color: whitesmoke;
+    background: linear-gradient(90deg, #000202 0%, #323233 100%);
+
+}
+
+.card {
+    background: linear-gradient(90deg, #000202 0%, #323233 100%);
+    color: whitesmoke;
+    height: 400px;
+}
+
+.card>img {
+    height: 200px;
+}
+
+.card h5 {
+    color: rgb(22, 172, 189);
+}
+
+.card a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+
+.slide-text,
+.footer-text {
+    color: whitesmoke;
+    margin: auto auto;
+}
+
+.footer,
+.btn-outline-primary,
+.btn-primary {
+    background: linear-gradient(90deg, #000202 0%, #323233 100%);
+    border-color: rgb(172, 10, 10);
+
+
+}
+
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
